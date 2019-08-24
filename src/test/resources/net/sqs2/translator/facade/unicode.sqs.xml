@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<html xmlns="http://www.w3.org/2002/06/xhtml2" xmlns:extra="http://eleusoft.org/schema/extra" xmlns:html="http://www.w3.org/2002/06/xhtml2"
+   xmlns:out="http://www.eleusoft.org/schemaconvert/out" xmlns:q="http://www.eleusoft.com/application/component/questionary"
+   xmlns:sqs="http://sqs.cmr.sfc.keio.ac.jp/2004/sqs" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:xslns="http://www.eleusoft.org/xsltnshelpers">
+   <head>
+      <title>Votazioni assemblea ordinaria BCC</title>
+      <meta content="Votazioni assemblea ordinaria BCC" name="DC.Title" />
+      <meta content="Votazioni BCC" name="DC.Title.Short" />
+      <meta content="marko" name="DC.Creator" />
+      <meta content="votazioni" name="DC.Subject" />
+      <meta content="votazioni" name="DC.Coverage" />
+      <meta content="2012-04-11" name="DCTERMS.Created" scheme="DCTERMS.W3CDTF" />
+      <meta content="2012-04-11/2012-05-31" name="DCTERMS.Valid" scheme="DCTERMS.W3CDTF" />
+   </head>
+   <body>
+      <img sqs:virtual="true" width="100">
+         <sqs:qrcode width="100" value='三島 由紀夫'/>
+      </img>
+      <img xmlns:fo="http://www.w3.org/1999/XSL/Format" 
+         fo:absolute-position="absolute" 
+         fo:left="120" 
+         width="480" 
+         height="80"
+         src="http://live.meetme.pro/sqs/media.do?id=10" />
+      <p />
+      <h>Votazioni assemblea ordinaria BCC</h>
+      <p>In this test questionary the image has is 480x80
+      and is absolutely positioned at 120 left 
+      while the barcode is normally positioned with width 100.</p>
+      <p>Here I show how to put an <span>image </span>
+      <img sqs:inline='true' xmlns:fo="http://www.w3.org/1999/XSL/Format" 
+         width="80" 
+         height="20"
+         src="http://live.meetme.pro/sqs/media.do?id=10" />
+      <span>inline in the text</span></p>
+      <div>div elements are supported, as well as <span>span</span>, also if still with different font size..</div>
+      <p/><xforms:select1 sqs:cols="2">
+         <p />
+         <xforms:hint>Esprimi la tua preferenza per eleggere il presidente N.B. SI POSSONO ESPRIMERE AL MASSIMO 1
+            PREFERENZA</xforms:hint>
+         <p />
+         <xforms:help />
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>11</xforms:value>
+            <xforms:label>Mario Rossi</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>12</xforms:value>
+            <xforms:label>Er Trota</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>13</xforms:value>
+            <xforms:label>Mario Monti</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>14</xforms:value>
+            <xforms:label>Pisapia</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>28</xforms:value>
+            <xforms:label>Gennaro Stabbi</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>29</xforms:value>
+            <xforms:label>Zido</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>30</xforms:value>
+            <xforms:label>Михаил Сергеевич Горбачёв</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>31</xforms:value>
+            <xforms:label>三島 由紀夫</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>32</xforms:value>
+            <xforms:label>Gérard Depardieu</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>33</xforms:value>
+            <xforms:label>Clarabella</xforms:label>
+         </xforms:item>
+      </xforms:select1>
+      <xforms:select sqs:cols="2">
+         <p />
+         <xforms:hint>Esprimi la tua preferenza per eleggere gli assessori. N.B. SI POSSONO ESPRIMERE AL MASSIMO 4
+            PREFERENZE</xforms:hint>
+         <p />
+         <xforms:help />
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>15</xforms:value>
+            <xforms:label>Topo</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>16</xforms:value>
+            <xforms:label>Pluto</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>17</xforms:value>
+            <xforms:label>Zio Paperone</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>19</xforms:value>
+            <xforms:label>Minny</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>20</xforms:value>
+            <xforms:label>Topolina</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>21</xforms:value>
+            <xforms:label>Commissario Basettoni</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>22</xforms:value>
+            <xforms:label>Paperino</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>27</xforms:value>
+            <xforms:label>Gianni</xforms:label>
+         </xforms:item>
+      </xforms:select>
+      <xforms:select sqs:cols="2">
+         <p />
+         <xforms:hint>Esprimi la tua preferenza per eleggere i vice presidenti N.B. SI POSSONO ESPRIMERE AL MASSIMO 2
+            PREFERENZE</xforms:hint>
+         <p />
+         <xforms:help />
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>23</xforms:value>
+            <xforms:label>pippo</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>24</xforms:value>
+            <xforms:label>Flavio</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>25</xforms:value>
+            <xforms:label>Beppa</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>26</xforms:value>
+            <xforms:label>Francesca</xforms:label>
+         </xforms:item>
+      </xforms:select>
+      <xforms:textarea sqs:height="30" sqs:width="400">
+         <xforms:hint />
+      </xforms:textarea>
+   </body>
+</html>

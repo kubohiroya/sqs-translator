@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<html xmlns="http://www.w3.org/2002/06/xhtml2" xmlns:extra="http://eleusoft.org/schema/extra" xmlns:out="http://www.eleusoft.org/schemaconvert/out"
+   xmlns:q="http://www.eleusoft.com/application/component/questionary" xmlns:sqs="http://sqs.cmr.sfc.keio.ac.jp/2004/sqs"
+   xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xslns="http://www.eleusoft.org/xsltnshelpers">
+   <head>
+      <title>My First Test Questionnaire, about nothing at all.</title>
+      <meta content="My First Test Questionnaire, about nothing at all." name="DC.Title" />
+      <meta content="First Test" name="DC.Title.Short" />
+      <meta content="mik" name="DC.Creator" />
+      <meta content="" name="DC.Subject" />
+      <meta content="" name="DC.Coverage" />
+      <meta content="2012-04-08" name="DCTERMS.Created" scheme="DCTERMS.W3CDTF" />
+      <meta content="class://net.sf.sqs_xml.anchor.TemplateAnchor/check-agreement.sqs" name="SQS.TemplateID"
+         scheme="SQS.PDCA" />
+   </head>
+   <body>
+      <sqs:qrcode value='Ciao' sqs:width='60' sqs:height='60'/>
+      <img  xmlns:fo="http://www.w3.org/1999/XSL/Format" 
+          fo:absolute-position='absolute' fo:top='0' fo:left='200' 
+          width='400' height='60' align='right'
+            src='http://live.meetme.pro/pub/themes/img/Logomeetme.png' />
+      <h>My First Test Questionnaire, about nothing at all 2.</h>
+       <sqs:matrix-forms sqs:form-width-ratio="0.8">
+    <xforms:hint>What fruit do you like and why do you like it?</xforms:hint>
+    <sqs:row-array>
+      <xforms:group>
+        <xforms:hint>apple</xforms:hint>
+      </xforms:group>
+      <xforms:group>
+        <xforms:hint>orange</xforms:hint>
+      </xforms:group>
+      <xforms:group>
+        <xforms:hint>strawberry</xforms:hint>
+      </xforms:group>
+    </sqs:row-array>
+   
+    <sqs:column-array>
+      <sqs:select>
+        <xforms:item>
+          <xforms:label>like</xforms:label>
+          <xforms:value>1</xforms:value>
+        </xforms:item>
+        <xforms:item>
+          <xforms:label>likez</xforms:label>
+          <xforms:value>2</xforms:value>
+        </xforms:item>
+        <xforms:item>
+          <xforms:label>eike</xforms:label>
+          <xforms:value>3</xforms:value>
+        </xforms:item>
+        
+      </sqs:select>
+      <sqs:textarea sqs:width="200" sqs:height="20">
+        <xforms:hint>reason</xforms:hint>
+      </sqs:textarea>
+    </sqs:column-array>
+  </sqs:matrix-forms>
+
+   <!-- 
+   <xforms:range start='1' end='5' step='1'>
+        <xforms:hint>strawberry</xforms:hint>
+    <xforms:label>label text</xforms:label>
+   </xforms:range>
+      -->
+      
+       <sqs:select>
+        <xforms:item>
+          <xforms:label>like</xforms:label>
+          <xforms:value>1</xforms:value>
+        </xforms:item>
+      </sqs:select>
+      <sqs:textarea sqs:width="200" sqs:height="20">
+        <xforms:hint>reason</xforms:hint>
+      </sqs:textarea>
+
+       
+   </body>
+</html>

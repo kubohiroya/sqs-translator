@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<html xmlns="http://www.w3.org/2002/06/xhtml2" xmlns:extra="http://eleusoft.org/schema/extra" xmlns:html="http://www.w3.org/2002/06/xhtml2"
+   xmlns:out="http://www.eleusoft.org/schemaconvert/out" xmlns:q="http://www.eleusoft.com/application/component/questionary"
+   xmlns:sqs="http://sqs.cmr.sfc.keio.ac.jp/2004/sqs" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:xslns="http://www.eleusoft.org/xsltnshelpers">
+   <head>
+      <title>Questions on XML</title>
+      <meta content="Questions on XML" name="DC.Title" />
+      <meta content="Questions on XML" name="DC.Title.Short" />
+      <meta content="Pinko Ballo" name="DC.Creator" />
+      <meta content="XML" name="DC.Subject" />
+      <meta content="Programmers" name="DC.Coverage" />
+      <meta content="2012-04-26" name="DCTERMS.Created" scheme="DCTERMS.W3CDTF" />
+      <meta content="class://net.sf.sqs_xml.anchor.TemplateAnchor/check-agreement.sqs" name="SQS.TemplateID"
+         scheme="SQS.PDCA" />
+   </head>
+   <body>
+      <img width='200' src="http://live.meetme.pro/pub/themes/img/Logomeetme.png" />
+      <img sqs:virtual="true" width='60' height='60'>
+         <sqs:qrcode value='Ciao' xmlns:fo="http://www.w3.org/1999/XSL/Format" 
+            background-color='yellow'     
+            background-opacity='0.2'
+            left="450"
+            height='60'
+            width="60" />
+      </img>
+      <p />
+      <h>Domande su XML</h>
+      <p>In this questionary there is a header image and an absolutely positioned
+      QRCode on the right of the image, at 450pt.</p>
+      <p/>
+      <xforms:select sqs:cols="2">
+         <p />
+         <xforms:hint>Chi usa xml ?</xforms:hint>
+         <p />
+         <xforms:help>Scegli chi secondo te usa xml, fino a due risposte</xforms:help>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>11</xforms:value>
+            <xforms:label>Nessuno</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>12</xforms:value>
+            <xforms:label>Qualcuno lo usera' ma io non lo conosco</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>13</xforms:value>
+            <xforms:label>Archimede Pitagorico</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>14</xforms:value>
+            <xforms:label>Il W3C</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>17</xforms:value>
+            <xforms:label>Renzo Tramaglino</xforms:label>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:value>18</xforms:value>
+            <xforms:label>Lo stato del Wisconsin</xforms:label>
+         </xforms:item>
+      </xforms:select>
+   </body>
+</html>

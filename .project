@@ -1,0 +1,33 @@
+<projectDescription>
+  <name>sqs-translator</name>
+  <comment>NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects>
+    <project>fop</project>
+    <project>ipafont</project>
+    <project>sqs-util</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+    <buildCommand>
+      <name>net.sourceforge.metrics.builder</name>
+    </buildCommand>
+    <buildCommand>
+      <name>com.stateofflow.eclipse.metrics.MetricsBuilder</name>
+    </buildCommand>
+    <buildCommand>
+      <name>org.maven.ide.eclipse.maven2Builder</name>
+    </buildCommand>
+    <buildCommand>
+      <name>org.eclipse.m2e.core.maven2Builder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.m2e.core.maven2Nature</nature>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+    <nature>org.maven.ide.eclipse.maven2Nature</nature>
+    <nature>net.sourceforge.metrics.nature</nature>
+    <nature>com.stateofflow.eclipse.metrics.MetricsNature</nature>
+  </natures>
+</projectDescription>

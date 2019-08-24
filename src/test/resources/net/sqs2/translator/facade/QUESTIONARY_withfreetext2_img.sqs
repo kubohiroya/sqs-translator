@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<html xmlns="http://www.w3.org/2002/06/xhtml2" xmlns:extra="http://eleusoft.org/schema/extra" xmlns:out="http://www.eleusoft.org/schemaconvert/out"
+   xmlns:q="http://www.eleusoft.com/application/component/questionary" xmlns:sqs="http://sqs.cmr.sfc.keio.ac.jp/2004/sqs"
+   xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xslns="http://www.eleusoft.org/xsltnshelpers">
+   <head>
+      <title>My First Test Questionnaire, about nothing at all.</title>
+      <meta content="My First Test Questionnaire, about nothing at all." name="DC.Title" />
+      <meta content="First Test" name="DC.Title.Short" />
+      <meta content="mik" name="DC.Creator" />
+      <meta content="" name="DC.Subject" />
+      <meta content="" name="DC.Coverage" />
+      <meta content="2012-04-08" name="DCTERMS.Created" scheme="DCTERMS.W3CDTF" />
+      <meta content="class://net.sf.sqs_xml.anchor.TemplateAnchor/check-agreement.sqs" name="SQS.TemplateID"
+         scheme="SQS.PDCA" />
+   </head>
+   <body>
+      <sqs:qrcode value='Ciao' sqs:width='60' sqs:height='60'/>
+      <img  xmlns:fo="http://www.w3.org/1999/XSL/Format" 
+          fo:absolute-position='absolute' fo:top='0' fo:left='200' 
+          width='400' height='60' align='right'
+            src='http://live.meetme.pro/pub/themes/img/Logomeetme.png' />
+      <h>My First Test Questionnaire, about nothing at all 2.</h>
+      <xforms:select1 sqs:cols="2">
+         <xforms:help>Spiega con una scelta come ti senti, altrimenti usa il campo di testo sucessivo oer scrivere come
+            ti senti</xforms:help>
+         <xforms:hint>Come va oggi ?</xforms:hint>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:label>Non So</xforms:label>
+            <xforms:value>4</xforms:value>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:label>Male</xforms:label>
+            <xforms:value>3</xforms:value>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:label>Bene</xforms:label>
+            <xforms:value>2</xforms:value>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:label>Benissimo</xforms:label>
+            <xforms:value>99</xforms:value>
+         </xforms:item>
+         <p />
+      </xforms:select1>
+      <xforms:textarea sqs:height="30" sqs:width="450">
+         <xforms:hint />
+      </xforms:textarea>
+      <xforms:select sqs:cols="2">
+         <xforms:help>Seleziona fino a due candidati. Se il candidato da te prescelto non e' presente nella lista usa le
+            due risposte libere successive.</xforms:help>
+         <xforms:hint>Per chi vuoi votare ?</xforms:hint>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:label>Gianni</xforms:label>
+            <xforms:value>6</xforms:value>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:label>Renzo</xforms:label>
+            <xforms:value>7</xforms:value>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:label>Mario</xforms:label>
+            <xforms:value>8</xforms:value>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:label>Apollo</xforms:label>
+            <xforms:value>9</xforms:value>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:label>Zeus</xforms:label>
+            <xforms:value>10</xforms:value>
+         </xforms:item>
+         <p />
+         <xforms:item sqs:colspan="1">
+            <xforms:label>Renato</xforms:label>
+            <xforms:value>78</xforms:value>
+         </xforms:item>
+         <p />
+      </xforms:select>
+      <xforms:textarea sqs:noindex='true' sqs:height="30" sqs:width="450">
+         <xforms:hint />
+      </xforms:textarea>
+      <xforms:textarea sqs:noindex='true' sqs:height="30" sqs:width="450">
+         <xforms:hint />
+      </xforms:textarea>
+   </body>
+</html>
